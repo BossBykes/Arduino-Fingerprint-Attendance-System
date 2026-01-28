@@ -1,4 +1,4 @@
-# 👆 Arduino Fingerprint Attendance System
+# Arduino Fingerprint Attendance System
 
 ## The Daily Office Struggle That Inspired This
 
@@ -6,18 +6,18 @@ Picture this: Every morning, employees lining up to sign a paper attendance shee
 
 Sound familiar? That's the chaos I witnessed that made me think, "There has got to be a better way!" So I built one using biometric technology and Arduino.
 
-## 🎯 What This System Does
+## What This System Does
 
-- **👆 Fingerprint Recognition** - Unique biometric identification (can't fake your fingerprint!)
-- **⏰ Automatic Time Tracking** - Records exact check-in and check-out times
-- **💾 Data Storage** - Saves all attendance records with timestamps
-- **🖥️ LCD Display** - Shows real-time feedback to users
-- **🔒 Secure & Tamper-proof** - No more buddy punching or forged signatures
-- **📊 Easy Data Export** - Attendance reports ready for payroll and HR
+- **Fingerprint Recognition** - Unique biometric identification (can't fake your fingerprint!)
+- **Automatic Time Tracking** - Records exact check-in and check-out times
+- **Data Storage** - Saves all attendance records with timestamps
+- **LCD Display** - Shows real-time feedback to users
+- **Secure & Tamper-proof** - No more buddy punching or forged signatures
+- **Easy Data Export** - Attendance reports ready for payroll and HR
 
 No more paper sheets, no more manual tracking, no more attendance fraud!
 
-## 🛠️ What I Built It With
+## What I Built It With
 
 | Component | What I Used | Why This Part |
 |-----------|-------------|---------------|
@@ -31,7 +31,7 @@ No more paper sheets, no more manual tracking, no more attendance fraud!
 
 *Total cost: About $60 (vs $500+ for commercial systems)*
 
-## 🚀 How The Magic Happens
+## How The Magic Happens
 
 ### The User Experience:
 ```
@@ -65,7 +65,7 @@ void checkAttendance() {
 }
 ```
 
-## 📊 System Architecture
+## System Architecture
 
 ```
 [Fingerprint Scanner] → [Arduino Controller] → [LCD Display]
@@ -82,7 +82,7 @@ void checkAttendance() {
 - Error messages for unrecognized prints
 - Admin menu for enrolling new employees
 
-## 😅 The Problems That Nearly Broke Me
+## The Problems That Nearly Broke Me
 
 **False Rejection Hell:** Clean fingers worked fine, but dry/wet/dirty fingers would fail constantly. Had to experiment with different sensor sensitivity settings and teach users proper finger placement.
 
@@ -94,7 +94,7 @@ void checkAttendance() {
 
 **Real-world Durability:** Office environments are harsh - coffee spills, dust, people being rough with buttons. Had to redesign the enclosure three times for better protection.
 
-## 🧠 What I Learned Building This
+## What I Learned Building This
 
 **Hardware Integration:**
 - **Biometric Sensors** - Fingerprint scanning technology and algorithms
@@ -110,7 +110,7 @@ void checkAttendance() {
 - **Testing with Real Users** - Lab testing ≠ real-world usage
 - **Security Considerations** - Protecting biometric data is serious business
 
-## 📈 Performance & Results
+## Performance & Results
 
 **Enrollment Process:**
 - Time per employee: 2-3 minutes
@@ -130,9 +130,9 @@ void checkAttendance() {
 - Increased payroll accuracy to 100%
 - ROI: Paid for itself in 2 months through time savings
 
-## 🔄 Current Features vs Future Upgrades
+## Current Features vs Future Upgrades
 
-**✅ What Works Right Now:**
+**What Works Right Now:**
 - Fingerprint enrollment and recognition
 - Automatic attendance logging with timestamps
 - LCD user interface with clear feedback
@@ -140,7 +140,7 @@ void checkAttendance() {
 - Admin functions for employee management
 - Battery backup for power outages
 
-**🚀 Next Level Ideas:**
+**Next Level Ideas:**
 - [ ] WiFi connectivity for cloud data sync
 - [ ] Mobile app for managers to view attendance
 - [ ] Multiple finger enrollment per person
@@ -149,7 +149,7 @@ void checkAttendance() {
 - [ ] Temperature scanning (post-COVID feature)
 - [ ] RFID card backup for problematic fingerprints
 
-## 💼 Real-World Applications
+## Real-World Applications
 
 This system works great for:
 
@@ -162,7 +162,7 @@ This system works great for:
 
 The core technology scales from small offices to large enterprises!
 
-## 🔒 Security & Privacy Considerations
+## Security & Privacy Considerations
 
 **Data Protection:**
 - Fingerprint templates stored locally (not images)
@@ -176,12 +176,12 @@ The core technology scales from small offices to large enterprises!
 - Admin-only access to data
 - Audit trail for all system access
 
-## 🏷️ Technologies Used
+## Technologies Used
 
 `Arduino` `Biometric-Systems` `Fingerprint-Recognition` `Embedded-Systems` `CPlusPlus` `Data-Logging` `Real-Time-Clock` `SD-Card-Storage` `LCD-Interface` `Security-Systems`
 
 ---
 
-**Built with Arduino, determination, and a healthy dislike for paper attendance sheets 📝**
+**Built with Arduino, determination, and a healthy dislike for paper attendance sheets**
 
 *This project taught me that the best technology solutions are often the ones that solve everyday annoyances. Sometimes the most impactful engineering isn't rocket science - it's making normal business processes work better!*
